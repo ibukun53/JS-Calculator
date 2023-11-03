@@ -1,16 +1,16 @@
-# Project Name
+# Javascript Calculator
 
-> One paragraph statement about the project.
+> This project is a web app built with HTML,CSS and JAVASCRIPT.It allows users to perform basic arithmetic calculations and features a user-friendly interface witj a display screen and buttons for numbers,opertaors and other functionalities.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+The calculator follows the semnatics and syntax of javascript and interactivity.It utilizes javascript to handle user interactions,perform calculations and update the display in real-life,the HTML provides layout while the CSS styles the apperances.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- JAVASCRIPT
+- JAVASCRIPT
+- HTML/CSS, VSC, GITHUB ACTION
 
 ## Live Demo
 
