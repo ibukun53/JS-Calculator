@@ -39,5 +39,9 @@
     "axe": "node axe-check.js",
     "lint:html": "htmlhint .",
     "test": "jest"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/ibukun53/calculator.git",
+  "author": "Blessing Olusanya <debbyblessing1234@gmail.com>",
+  "license": "MIT"
 }
