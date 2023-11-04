@@ -4,5 +4,5 @@ This imports the `reset.css` file */
 
 /* For testing purposes, delete this code */
 body {
-  padding: 0;
+  background-color: blue;
 }
