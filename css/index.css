@@ -4,8 +4,5 @@ This imports the `reset.css` file */
 
 /* For testing purposes, delete this code */
 body {
-  font-size: max(20vw, 400px);
-  width: min(20vw, 400px);
-  margin: 20px;
   padding: 0;
 }

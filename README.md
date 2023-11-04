@@ -89,9 +89,9 @@ yarn axe
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Github: [@author](https://github.com/ibukun53)
+- Twitter: [@author](https://twitter.com/ibukun53)
+- Linkedin: [@author](https://www.linkedin.com/ibukun53/)
 
 ## 🤝 Contributing
 
