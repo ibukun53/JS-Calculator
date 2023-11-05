@@ -14,14 +14,14 @@ The calculator follows the semnatics and syntax of javascript and interactivity.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://deploy-preview-1--made-by-js-calculator.netlify.app/)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/user/js-template.git
+git clone https://github.com/ibukun53/JS-calculator.git
 
 ```
 
