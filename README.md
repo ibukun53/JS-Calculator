@@ -14,7 +14,7 @@ The calculator follows the semnatics and syntax of javascript and interactivity.
 
 ## Live Demo
 
-[Live Demo Link](https://deploy-preview-1--made-by-js-calculator.netlify.app/)
+[Live Demo Link](https://made-by-js-calculator.netlify.app/)
 
 ### Development (Running locally)
 
@@ -89,9 +89,9 @@ yarn axe
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/ibukun53)
-- Twitter: [@author](https://twitter.com/ibukun53)
-- Linkedin: [@author](https://www.linkedin.com/ibukun53/)
+- Github: [@ibukun](https://github.com/ibukun53)
+- Twitter: [@ibukun](https://twitter.com/ibukun53)
+- Linkedin: [@ibukun](https://www.linkedin.com/ibukun53/)
 
 ## 🤝 Contributing
 
