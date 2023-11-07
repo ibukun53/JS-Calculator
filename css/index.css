@@ -153,7 +153,7 @@ button {
   cursor: pointer;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-  box-shadow: 5px 10px 18px red;
+  box-shadow: 5px 10px 18px blue;
 }
 
 button:hover {
