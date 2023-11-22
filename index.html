@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.goggleapis.com/css2?family=League+Spartan:wgt@300&display=swap" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet" />
   </head>
   <body>
-    <body class="body-container">
+    <div class="body-container">
       <div class="header">
         <h2 class="title">calc</h2>
         <div class="theme-container">
@@ -43,7 +44,7 @@
         <button class="btn" value="7">7</button>
         <button class="btn" value="89">8</button>
         <button class="btn" value="9">9</button>
-        <button class="btn" value="DEL">DEL</button>
+        <button class="btn-del" value="DEL">DEL</button>
         <button class="btn" value="4">4</button>
         <button class="btn" value="5">5</button>
         <button class="btn" value="6">6</button>
@@ -56,11 +57,13 @@
         <button class="btn" value="0">0</button>
         <button class="btn" value="/">/</button>
         <button class="btn" value="*">*</button>
+        </div>
         <div class="sub-article">
-        <button class="btn" value="RESET">RESET</button>
-        <button class="btn" value="=">=</button>
+        <button class="btn-reset" value="RESET">RESET</button>
+        <button class="btn-equal" value="=">=</button>
         </div>
       </div>
+    </div>
     </div>
     <script src="js/index.js"></script>
   </body>
