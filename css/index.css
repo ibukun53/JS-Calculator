@@ -4,9 +4,15 @@ This imports the `reset.css` file */
 
 /* For testing purposes, delete this code */
 
+:root {
+  --main-bg-color: hsl(222, 26%, 31%);
+  --theme-one-color:hsl(223, 31%, 20%);
+  --box-shadow: hsl(224, 28%, 35%);
+}
+
 body {
-  background-color: hsl(222, 26%, 31%);
- font-family: 'League Spartan', sans-serif;
+ background-color: var(--main-bg-color);
+  font-family: 'League Spartan', sans-serif;
 }
 
 .header {
@@ -64,7 +70,7 @@ body {
   margin-left: 5px;
   height: 25px;
   border-radius: 90px;
-  background-color: hsl(223, 31%, 20%);
+  background-color: var(--theme-one-color);
 }
 
 .container {
@@ -133,7 +139,7 @@ body {
 }
 
 .result {
-  margin-left: 60%z;
+  margin-left: 60%;
   font-size: 32px;
   margin-top: 30px;
   padding-top: 27px;
@@ -143,7 +149,7 @@ body {
 .article {
   width: 320px;
   margin: auto;
-  background-color: hsl(223, 31%, 20%);
+  background-color: var(--theme-one-color);
   border-radius: 5px;
 }
 
@@ -176,9 +182,9 @@ button:hover {
 }
 
 .btn-del {
-  background-color: hsl(222, 26%, 31%);
+  background-color: var(--main-bg-color);
   color: hsl(0, 0%, 100%);
-  box-shadow: 0px 5px  hsl(224, 28%, 35%);
+  box-shadow: 0px 5px  var( --box-shadow);
 }
 
 .sub-article{
@@ -199,10 +205,10 @@ button:hover {
   margin-top: 15%;
   font-weight: 700;
   border-radius: 5px;
-  background-color: hsl(222, 26%, 31%);
+  background-color: var(--main-bg-color);
   margin-top: 2%;
   color: hsl(0, 0%, 100%);
-  box-shadow: 0px 5px  hsl(224, 28%, 35%);
+  box-shadow: 0px 5px var(--box-shadow);
 }
 
 .btn-equal {
