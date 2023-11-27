@@ -5,13 +5,13 @@ This imports the `reset.css` file */
 /* For testing purposes, delete this code */
 
 :root {
-  --main-bg-color: hsl(222, 26%, 31%);
-  --theme-one-color:hsl(223, 31%, 20%);
-  --box-shadow: hsl(224, 28%, 35%);
+  --main-bg-color: hsl(222deg 26% 31%);
+  --theme-one-color: hsl(223deg 31% 20%);
+  --box-shadow: hsl(224deg 28% 35%);
 }
 
 body {
- background-color: var(--main-bg-color);
+  background-color: var(--main-bg-color);
   font-family: 'League Spartan', sans-serif;
 }
 
@@ -26,7 +26,7 @@ body {
   font-size: 25px;
   margin-left: 25px;
   padding-top: 10px;
-  color: hsl(0, 0%, 100%);
+  color: hsl(0deg 0% 100%);
   font-weight: 700;
 }
 
@@ -39,7 +39,7 @@ body {
 .theme-text {
   margin-left: 55%;
   margin-top: 19px;
-  color:hsl(0, 0%, 100%);
+  color: hsl(0deg 0% 100%);
   font-weight: 700;
   font-size: 12px;
 }
@@ -55,7 +55,7 @@ body {
   flex-direction: row;
   margin-left: -9px;
   margin-top: -5px;
-  color:  hsl(0, 0%, 100%);
+  color: hsl(0deg 0% 100%);
 }
 
 .num {
@@ -118,22 +118,22 @@ body {
 
 /* When the radio button is checked, add a blue background */
 .container input:checked ~ .checkmark-one {
-  background-color:  hsl(6, 63%, 50%);
+  background-color: hsl(6deg 63% 50%);
 }
 
 .container input:checked ~ .checkmark-two {
-  background-color:  hsl(225, 21%, 49%);
+  background-color: hsl(225deg 21% 49%);
 }
 
 .container input:checked ~ .checkmark-three {
-  background-color: hsl(30, 25%, 89%);
+  background-color: hsl(30deg 25% 89%);
 }
 
 .section {
   width: 320px;
   height: 90px;
   margin: auto;
-  background-color: hsl(224, 36%, 15%);
+  background-color: hsl(224deg 36% 15%);
   border-radius: 5px;
 }
 
@@ -142,7 +142,7 @@ body {
   font-size: 32px;
   margin-top: 30px;
   padding-top: 27px;
-  color: hsl(0, 0%, 100%);
+  color: hsl(0deg 0% 100%);
 }
 
 .article {
@@ -159,9 +159,9 @@ body {
 }
 
 button {
-  background-color: hsl(30, 25%, 89%);
+  background-color: hsl(30deg 25% 89%);
   border: none;
-  color: hsl(221, 14%, 31%);
+  color: hsl(221deg 14% 31%);
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -170,8 +170,8 @@ button {
   width: 57px;
   height: 55px;
   cursor: pointer;
-  box-shadow: 0px 5px hsl(28, 16%, 65%);
-  margin-top:15%;
+  box-shadow: 0 5px hsl(28deg 16% 65%);
+  margin-top: 15%;
   font-weight: 700;
   border-radius: 5px;
 }
@@ -182,16 +182,16 @@ button:hover {
 
 .btn-del {
   background-color: var(--main-bg-color);
-  color: hsl(0, 0%, 100%);
-  box-shadow: 0px 5px  var( --box-shadow);
+  color: hsl(0deg 0% 100%);
+  box-shadow: 0 5px var(--box-shadow);
 }
 
-.sub-article{
+.sub-article {
   display: flex;
   flex-direction: row;
 }
 
-.btn-reset{
+.btn-reset {
   border: none;
   text-align: center;
   text-decoration: none;
@@ -201,19 +201,18 @@ button:hover {
   width: 130px;
   height: 55px;
   cursor: pointer;
-  margin-top: 15%;
+  margin-top: 2%;
   font-weight: 700;
   border-radius: 5px;
   background-color: var(--main-bg-color);
-  margin-top: 2%;
-  color: hsl(0, 0%, 100%);
-  box-shadow: 0px 5px var(--box-shadow);
+  color: hsl(0deg 0% 100%);
+  box-shadow: 0 5px var(--box-shadow);
 }
 
 .btn-equal {
-  background-color: hsl(6, 63%, 50%);
+  background-color: hsl(6deg 63% 50%);
   border: none;
-  color: hsl(0, 0%, 100%);
+  color: hsl(0deg 0% 100%);
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -222,8 +221,7 @@ button:hover {
   width: 130px;
   height: 55px;
   cursor: pointer;
-  box-shadow: 0px 5px  hsl(6, 70%, 34%);
-  margin-top: 15%;
+  box-shadow: 0 5px hsl(6deg 70% 34%);
   font-weight: 700;
   border-radius: 5px;
   margin-top: 2%;
