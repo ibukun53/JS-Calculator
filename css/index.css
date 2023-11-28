@@ -8,6 +8,14 @@ This imports the `reset.css` file */
   --main-bg-color: hsl(222deg 26% 31%);
   --theme-one-color: hsl(223deg 31% 20%);
   --box-shadow: hsl(224deg 28% 35%);
+  --red-color: hsl(6deg 63% 50%);
+  --checkmark-two: hsl(225deg 21% 49%);
+  --white-color: hsl(30deg 25% 89%);
+  --boxshadow-red: hsl(6deg 70% 34%);
+  --blue-color: hsl(224deg 36% 15%);
+  --boxshadow-lightred: hsl(28deg 16% 65%);
+  --white-two-color: hsl(0deg 0% 100%);
+  --darkblue-color: hsl(221deg 14% 31%);
 }
 
 body {
@@ -15,7 +23,7 @@ body {
   font-family: 'League Spartan', sans-serif;
 }
 
-.header {
+.title-container {
   margin: auto;
   border-radius: 8px;
   width: 350px;
@@ -26,7 +34,7 @@ body {
   font-size: 25px;
   margin-left: 25px;
   padding-top: 10px;
-  color: hsl(0deg 0% 100%);
+  color: var(--white-two-color);
   font-weight: 700;
 }
 
@@ -39,7 +47,7 @@ body {
 .theme-text {
   margin-left: 55%;
   margin-top: 19px;
-  color: hsl(0deg 0% 100%);
+  color: var(--white-two-color);
   font-weight: 700;
   font-size: 12px;
 }
@@ -55,7 +63,7 @@ body {
   flex-direction: row;
   margin-left: -9px;
   margin-top: -5px;
-  color: hsl(0deg 0% 100%);
+  color: var(--white-two-color);
 }
 
 .num {
@@ -118,22 +126,22 @@ body {
 
 /* When the radio button is checked, add a blue background */
 .container input:checked ~ .checkmark-one {
-  background-color: hsl(6deg 63% 50%);
+  background-color: var(--red-color);
 }
 
 .container input:checked ~ .checkmark-two {
-  background-color: hsl(225deg 21% 49%);
+  background-color: var(--checkmark-two);
 }
 
 .container input:checked ~ .checkmark-three {
-  background-color: hsl(30deg 25% 89%);
+  background-color: var(--white-color);
 }
 
-.section {
+.result-container {
   width: 320px;
   height: 90px;
   margin: auto;
-  background-color: hsl(224deg 36% 15%);
+  background-color: var(--blue-color);
   border-radius: 5px;
 }
 
@@ -142,26 +150,26 @@ body {
   font-size: 32px;
   margin-top: 30px;
   padding-top: 27px;
-  color: hsl(0deg 0% 100%);
+  color: var(--white-two-color);
 }
 
-.article {
+.button-container {
   width: 320px;
   margin: auto;
   background-color: var(--theme-one-color);
   border-radius: 5px;
 }
 
-.article-container {
+.buttons-signs {
   display: grid;
   margin: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 button {
-  background-color: hsl(30deg 25% 89%);
+  background-color: var(--white-color);
   border: none;
-  color: hsl(221deg 14% 31%);
+  color: var(--blue2-color);
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -170,7 +178,7 @@ button {
   width: 57px;
   height: 55px;
   cursor: pointer;
-  box-shadow: 0 5px hsl(28deg 16% 65%);
+  box-shadow: 0 5px var(--boxshadow-lightred);
   margin-top: 15%;
   font-weight: 700;
   border-radius: 5px;
@@ -182,11 +190,11 @@ button:hover {
 
 .btn-del {
   background-color: var(--main-bg-color);
-  color: hsl(0deg 0% 100%);
+  color: var(--white-two-color);
   box-shadow: 0 5px var(--box-shadow);
 }
 
-.sub-article {
+.buttons-text {
   display: flex;
   flex-direction: row;
 }
@@ -205,14 +213,14 @@ button:hover {
   font-weight: 700;
   border-radius: 5px;
   background-color: var(--main-bg-color);
-  color: hsl(0deg 0% 100%);
+  color: var(--white2-color);
   box-shadow: 0 5px var(--box-shadow);
 }
 
 .btn-equal {
-  background-color: hsl(6deg 63% 50%);
+  background-color: var(--red-color);
   border: none;
-  color: hsl(0deg 0% 100%);
+  color: var(--darkblue-color);
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -221,7 +229,7 @@ button:hover {
   width: 130px;
   height: 55px;
   cursor: pointer;
-  box-shadow: 0 5px hsl(6deg 70% 34%);
+  box-shadow: 0 5px var(--boxshadow-red);
   font-weight: 700;
   border-radius: 5px;
   margin-top: 2%;
