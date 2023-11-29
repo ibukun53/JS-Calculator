@@ -4,18 +4,21 @@ This imports the `reset.css` file */
 
 /* For testing purposes, delete this code */
 
-:root {
+.theme-one {
   --main-bg-color: hsl(222deg 26% 31%);
-  --theme-one-color: hsl(223deg 31% 20%);
-  --box-shadow: hsl(224deg 28% 35%);
-  --red-color: hsl(6deg 63% 50%);
-  --checkmark-two: hsl(225deg 21% 49%);
-  --white-color: hsl(30deg 25% 89%);
-  --boxshadow-red: hsl(6deg 70% 34%);
-  --blue-color: hsl(224deg 36% 15%);
-  --boxshadow-lightred: hsl(28deg 16% 65%);
-  --white-two-color: hsl(0deg 0% 100%);
+  --checkbox-underlay-color: hsl(223deg 31% 20%);
+  --delsign-boxshadow: hsl(224deg 28% 35%);
+  --checkmark-one-background-color: hsl(6deg 63% 50%);
+  --checkmark-two-background-color: hsl(225deg 21% 49%);
+  --checkmark-three-background-color: hsl(30deg 25% 89%);
+  --equalsign-boxshadow: hsl(6deg 70% 34%);
+  --result-background-color: hsl(224deg 36% 15%);
+  --button-boxshadow: hsl(28deg 16% 65%);
+  --text-color: hsl(0deg 0% 100%);
   --darkblue-color: hsl(221deg 14% 31%);
+  --keyboard-hovering-background: hsl(223deg 31% 20%);
+  --equalsign-hovering-color: hsl(6deg 63% 50%);
+  --button-text-color: hsl(221deg 14% 31%);
 }
 
 body {
@@ -34,7 +37,7 @@ body {
   font-size: 25px;
   margin-left: 25px;
   padding-top: 10px;
-  color: var(--white-two-color);
+  color: var(--text-color);
   font-weight: 700;
 }
 
@@ -47,7 +50,7 @@ body {
 .theme-text {
   margin-left: 55%;
   margin-top: 19px;
-  color: var(--white-two-color);
+  color: var(--text-color);
   font-weight: 700;
   font-size: 12px;
 }
@@ -63,7 +66,7 @@ body {
   flex-direction: row;
   margin-left: -9px;
   margin-top: -5px;
-  color: var(--white-two-color);
+  color: var(--text-color);
 }
 
 .num {
@@ -78,7 +81,7 @@ body {
   margin-left: 5px;
   height: 25px;
   border-radius: 90px;
-  background-color: var(--theme-one-color);
+  background-color: var(--checkbox-underlay-color);
 }
 
 .container {
@@ -126,22 +129,22 @@ body {
 
 /* When the radio button is checked, add a blue background */
 .container input:checked ~ .checkmark-one {
-  background-color: var(--red-color);
+  background-color: var(--checkmark-one-background-color);
 }
 
 .container input:checked ~ .checkmark-two {
-  background-color: var(--checkmark-two);
+  background-color: var(--checkmark-two-background-color);
 }
 
 .container input:checked ~ .checkmark-three {
-  background-color: var(--white-color);
+  background-color: var(--checkmark-three-background-color);
 }
 
 .result-container {
   width: 320px;
   height: 90px;
   margin: auto;
-  background-color: var(--blue-color);
+  background-color: var(--result-background-color);
   border-radius: 5px;
 }
 
@@ -150,14 +153,18 @@ body {
   font-size: 32px;
   margin-top: 30px;
   padding-top: 27px;
-  color: var(--white-two-color);
+  color: var(--text-color);
 }
 
 .button-container {
   width: 320px;
   margin: auto;
-  background-color: var(--theme-one-color);
+  background-color: var(--checkbox-underlay-color);
   border-radius: 5px;
+}
+
+.button-container:hover {
+  background-color: var(--keyboard-hovering-background);
 }
 
 .buttons-signs {
@@ -167,9 +174,9 @@ body {
 }
 
 button {
-  background-color: var(--white-color);
+  background-color: var(--checkmark-three-background-color);
   border: none;
-  color: var(--blue2-color);
+  color: var(--button-text-color);
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -178,20 +185,16 @@ button {
   width: 57px;
   height: 55px;
   cursor: pointer;
-  box-shadow: 0 5px var(--boxshadow-lightred);
+  box-shadow: 0 5px var(--button-boxshadow);
   margin-top: 15%;
   font-weight: 700;
   border-radius: 5px;
 }
 
-button:hover {
-  box-shadow: black;
-}
-
 .btn-del {
   background-color: var(--main-bg-color);
-  color: var(--white-two-color);
-  box-shadow: 0 5px var(--box-shadow);
+  color: var(--text-color);
+  box-shadow: 0 5px var(--delsign-boxshadow);
 }
 
 .buttons-text {
@@ -213,14 +216,14 @@ button:hover {
   font-weight: 700;
   border-radius: 5px;
   background-color: var(--main-bg-color);
-  color: var(--white2-color);
-  box-shadow: 0 5px var(--box-shadow);
+  color: var(--text-color);
+  box-shadow: 0 5px var(--delsign-boxshadow);
 }
 
 .btn-equal {
-  background-color: var(--red-color);
+  background-color: var(--checkmark-one-background-color);
   border: none;
-  color: var(--darkblue-color);
+  color: var(--text-color);
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -229,8 +232,12 @@ button:hover {
   width: 130px;
   height: 55px;
   cursor: pointer;
-  box-shadow: 0 5px var(--boxshadow-red);
+  box-shadow: 0 5px var(--equalsign-boxshadow);
   font-weight: 700;
   border-radius: 5px;
   margin-top: 2%;
+}
+
+.btn-equal:hover {
+  background-color: var(--equalsign-hovering-color);
 }
