@@ -21,6 +21,23 @@ This imports the `reset.css` file */
   --button-text-color: hsl(221deg 14% 31%);
 }
 
+.theme-two {
+  --main-bg-color: hsl(222deg 26% 31%);
+  --checkbox-underlay-color: hsl(223deg 31% 20%);
+  --delsign-boxshadow: hsl(224deg 28% 35%);
+  --checkmark-one-background-color: hsl(6deg 63% 50%);
+  --checkmark-two-background-color: hsl(225deg 21% 49%);
+  --checkmark-three-background-color: hsl(30deg 25% 89%);
+  --equalsign-boxshadow: hsl(6deg 70% 34%);
+  --result-background-color: hsl(224deg 36% 15%);
+  --button-boxshadow: hsl(28deg 16% 65%);
+  --text-color: hsl(0deg 0% 100%);
+  --darkblue-color: hsl(221deg 14% 31%);
+  --keyboard-hovering-background: hsl(223deg 31% 20%);
+  --equalsign-hovering-color: hsl(6deg 63% 50%);
+  --button-text-color: hsl(221deg 14% 31%);
+}
+
 body {
   background-color: var(--main-bg-color);
   font-family: 'League Spartan', sans-serif;
@@ -58,7 +75,8 @@ body {
 .theme-feature {
   display: flex;
   flex-direction: column;
-  margin-left: 5%;
+  margin-left: 10px;
+  margin-top: 15px;
 }
 
 .theme-num {
@@ -70,8 +88,8 @@ body {
 }
 
 .num {
-  margin-left: 20px;
-  font-size: 12px;
+  margin-left: -1px;
+  margin-top: -20px;
 }
 
 .theme-color-container {
@@ -87,7 +105,7 @@ body {
 .container {
   display: flex;
   position: relative;
-  padding-left: 28px;
+  padding-left: 13px;
   margin-bottom: 12px;
   font-size: 22px;
 }
@@ -102,8 +120,7 @@ body {
 /* Create a custom radio button */
 .checkmark-one {
   position: absolute;
-  top: 5px;
-  left: 6px;
+  top: 23px;
   height: 18px;
   width: 17px;
   border-radius: 50%;
@@ -111,8 +128,8 @@ body {
 
 .checkmark-two {
   position: absolute;
-  top: 5px;
-  left: 0;
+  top: 23px;
+  left: 7px;
   height: 18px;
   width: 17px;
   border-radius: 50%;
@@ -120,8 +137,7 @@ body {
 
 .checkmark-three {
   position: absolute;
-  top: 5px;
-  left: 0;
+  top: 23px;
   height: 18px;
   width: 17px;
   border-radius: 50%;
