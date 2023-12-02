@@ -3,13 +3,11 @@ This imports the `reset.css` file */
 @import url('./reset.css');
 
 /* For testing purposes, delete this code */
-
 .theme-one {
   --main-bg-color: hsl(222deg 26% 31%);
   --checkbox-underlay-color: hsl(223deg 31% 20%);
   --delsign-boxshadow: hsl(224deg 28% 35%);
   --del-background-color: hsl(225deg 21% 49%);
-  --del-text-color: hsl(0deg 0% 100%);
   --checkmark-one-background-color: hsl(6deg 63% 50%);
   --checkmark-two-background-color: hsl(225deg 21% 49%);
   --checkmark-three-background-color: hsl(30deg 25% 89%);
@@ -25,7 +23,7 @@ This imports the `reset.css` file */
   --button-background-color: hsl(45deg 7% 89%);
   --reset-background-color: hsl(225deg 21% 49%);
   --reset-boxshadow: hsl(224deg 28% 35%);
-  --reset-text-color: hsl(0deg 0% 100%);
+  --neutral-color: hsl(0deg 0% 100%);
 }
 
 .theme-two {
@@ -47,10 +45,9 @@ This imports the `reset.css` file */
   --button-boxshadow: hsl(35deg 11% 61%);
   --del-background-color: hsl(185deg 42% 37%);
   --delsign-boxshadow: hsl(185deg 58% 25%);
-  --del-text-color: hsl(0deg 0% 100%);
   --reset-background-color: hsl(185deg 42% 37%);
   --reset-boxshadow: hsl(185deg 58% 25%);
-  --reset-text-color: hsl(0deg 0% 100%);
+  --neutral-color: hsl(0deg 0% 100%);
 }
 
 .theme-three {
@@ -72,10 +69,9 @@ This imports the `reset.css` file */
   --button-boxshadow: hsl(285deg 91% 52%);
   --del-background-color: hsl(281deg 89% 26%);
   --delsign-boxshadow: hsl(285deg 91% 52%);
-  --del-text-color: hsl(0deg 0% 100%);
   --reset-background-color: hsl(281deg 89% 26%);
   --reset-boxshadow: hsl(285deg 91% 52%);
-  --reset-text-color: hsl(0deg 0% 100%);
+  --neutral-color: hsl(0deg 0% 100%);
 }
 
 body {
@@ -222,10 +218,6 @@ body {
   border-radius: 5px;
 }
 
-.button-container:hover {
-  background-color: var(--keyboard-hovering-background);
-}
-
 .buttons-signs {
   display: grid;
   margin: 10px;
@@ -252,7 +244,7 @@ body {
 
 .del-btn {
   background-color: var(--del-background-color);
-  color: var(--del-text-color);
+  color: var(--neutral-color);
   font-size: 20px;
   box-shadow: 0 5px var(--delsign-boxshadow);
 }
@@ -276,7 +268,7 @@ body {
   font-weight: 700;
   border-radius: 5px;
   background-color: var(--reset-background-color);
-  color: var(--reset-text-color);
+  color: var(--neutral-color);
   box-shadow: 0 5px var(--reset-boxshadow);
 }
 
