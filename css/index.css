@@ -282,31 +282,3 @@ body {
 .btn-equal:hover {
   background-color: var(--equalsign-hovering-color);
 }
-
-@media (width >= 1000px) {
-  .title-container,
-  .result-container,
-  .button-container {
-    width: 450px;
-  }
-
-  .theme-text {
-    margin-left: 73%;
-  }
-
-  .result {
-    margin-left: 70%;
-  }
-
-  .btn {
-    width: 90px;
-  }
-
-  .btn-reset {
-    width: 190px;
-  }
-
-  .btn-equal {
-    width: 190px;
-  }
-}
