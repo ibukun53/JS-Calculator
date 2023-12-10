@@ -132,7 +132,6 @@ body {
 }
 
 .theme-color-container {
-  flex-direction: row;
   margin-left: 5px;
   height: 25px;
   width: 70px;
