@@ -24,6 +24,7 @@ This imports the `reset.css` file */
   --reset-background-color: hsl(225deg 21% 49%);
   --reset-boxshadow: hsl(224deg 28% 35%);
   --neutral-color: hsl(0deg 0% 100%);
+  --btn-hover: hsl(0deg 0% 100%);
 }
 
 .theme-two {
@@ -48,6 +49,7 @@ This imports the `reset.css` file */
   --reset-background-color: hsl(185deg 42% 37%);
   --reset-boxshadow: hsl(185deg 58% 25%);
   --neutral-color: hsl(0deg 0% 100%);
+  --btn-hover: hsl(0deg 0% 100%);
 }
 
 .theme-three {
@@ -72,6 +74,7 @@ This imports the `reset.css` file */
   --reset-background-color: hsl(281deg 89% 26%);
   --reset-boxshadow: hsl(285deg 91% 52%);
   --neutral-color: hsl(0deg 0% 100%);
+  --btn-hover: hsl(268, 54%, 44%);
 }
 
 body {
@@ -234,6 +237,10 @@ body {
   box-shadow: 0 5px var(--button-boxshadow);
   font-weight: 700;
   border-radius: 5px;
+}
+
+.btn:hover {
+background: var(--btn-hover);
 }
 
 .del-btn {
