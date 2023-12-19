@@ -240,7 +240,7 @@ body {
 }
 
 .btn:hover {
-background: var(--btn-hover);
+  background: var(--btn-hover);
 }
 
 .del-btn {
