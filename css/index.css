@@ -74,7 +74,7 @@ This imports the `reset.css` file */
   --reset-background-color: hsl(281deg 89% 26%);
   --reset-boxshadow: hsl(285deg 91% 52%);
   --neutral-color: hsl(0deg 0% 100%);
-  --btn-hover: hsl(268, 54%, 44%);
+  --btn-hover: hsl(268deg 54% 44%);
 }
 
 body {
